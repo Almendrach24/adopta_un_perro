@@ -1,0 +1,58 @@
+body {
+  margin: 5px;
+  padding: 2em;
+}
+
+#contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 180vw;
+  height: 700px;
+}
+
+h1 {
+  font-size: 3em;
+  padding: 1em;
+}
+.tituloPerritos{
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+
+}
+.principal{
+  width: 1100px;
+  display: flex;
+  justify-content: space-around;
+}
+.cardPerrito{
+  width: 250px;
+  height: 490px;
+  display: grid;
+  justify-content: space-around;
+  align-items: center;
+  border: solid 1px rgb(103, 98, 98);
+  border-radius: 5px;
+  padding: 2em;
+  
+}
+.cardPerrito img{
+  width: 200px;
+  height: 250px;
+  border-radius: 5px;
+}
+.cardPerrito p{
+  padding-left: 10px;
+
+}
+
+footer{
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  margin: 1em;
+  padding: 2em;
+  
+}
